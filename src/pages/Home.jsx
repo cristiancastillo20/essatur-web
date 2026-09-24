@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import ScrollProgress from "../components/ScrollProgress";
 import WhatsAppButton from "../components/WhatsAppButton";
+import Footer from "../components/Footer";
 import Hero from "../sections/Hero";
 import Nosotros from "../sections/Nosotros";
 import Servicios from "../sections/Servicios";
@@ -12,20 +13,12 @@ function Home() {
       <Navbar />
       <ScrollProgress />
       <WhatsAppButton />
-      <div id="hero">
-        <Hero />
-      </div>
-      <div id="nosotros">
-        <Nosotros />
-      </div>
-      <div id="servicios">
-        <Servicios />
-      </div>
-      <div id="cobertura">
-        <Cobertura />
-      </div>
+      <div id="hero"><Hero /></div>
+      <div id="nosotros"><Nosotros /></div>
+      <div id="servicios"><Servicios /></div>
+      <div id="cobertura"><Cobertura /></div>
+      <Footer />
     </>
   );
 }
-
 export default Home;
