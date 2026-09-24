@@ -20,7 +20,7 @@ const fromTop = {
 
 function Hero() {
   return (
-    <section className="relative bg-linear-to-br from-ink via-route to-[#4C7DFF] min-h-screen flex items-center overflow-hidden pt-20">
+    <section className="relative bg-linear-to-br from-ink via-route to-[#34D399] min-h-screen flex items-center overflow-hidden pt-20">
       <Hero3D />
 
       <motion.div

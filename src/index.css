@@ -3,9 +3,9 @@
 
 @theme {
   --font-sans: 'Inter', sans-serif;
-  --color-ink: #0F1729;
-  --color-route: #2451C4;
-  --color-sky: #38BDF8;
+  --color-ink: #0B2E22;
+  --color-route: #0E9B76;
+  --color-sky: #34D399;
   --color-amber: #F5A623;
 }
 html {

@@ -18,7 +18,7 @@ function RotatingShape() {
     // aparece claramente a un lado, sin competir con el texto.
     <mesh ref={meshRef} position={[0, 0, 0]}>
       <icosahedronGeometry args={[1.6, 0]} />
-      <meshStandardMaterial color="#4C7DFF" flatShading />
+      <meshStandardMaterial color="#0E9B76" flatShading />
     </mesh>
   );
 }
@@ -29,7 +29,7 @@ function Hero3D() {
       <Canvas camera={{ position: [0, 0, 5] }}>
         <ambientLight intensity={0.6} />
         <directionalLight position={[5, 5, 5]} intensity={1.4} />
-        <directionalLight position={[-5, -3, 2]} intensity={0.4} color="#38BDF8" />
+        <directionalLight position={[-5, -3, 2]} intensity={0.4} color="#34D399" />
         <RotatingShape />
       </Canvas>
     </div>

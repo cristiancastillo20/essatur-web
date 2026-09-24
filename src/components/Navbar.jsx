@@ -16,7 +16,7 @@ function Navbar() {
         className={`flex items-center justify-between rounded-full px-6 py-3 backdrop-blur-md ring-1 transition-colors duration-500 ${
           scrolled
             ? "bg-white/70 shadow-lg shadow-black/10 ring-black/5"
-            : "bg-black/75 shadow-lg shadow-black/30 ring-white/10"
+            : "bg-ink/75 shadow-lg shadow-black/30 ring-white/10"
         }`}
       >
         <Link
@@ -42,7 +42,7 @@ function Navbar() {
           to="/contacto"
           className={`text-sm font-bold px-5 py-2.5 rounded-full transition-colors duration-500 ${
             scrolled
-              ? "bg-black text-white hover:brightness-125"
+              ? "bg-route text-white hover:brightness-110"
               : "bg-white text-black hover:brightness-90"
           }`}
         >
